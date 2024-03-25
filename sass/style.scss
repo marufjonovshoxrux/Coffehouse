@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.icon_box {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    &::before,
+    &::after{
+        content: "";
+        width: 60px;
+        height: 1px;
+        background-color: white;
+    }
+   
+}
+
+.icon_box2 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    &::before,
+    &::after{
+        content: "";
+        width: 60px;
+        height: 1px;
+        background-color: black;
+    }
+   
+}
+
+.icon_box3 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+    &::before,
+    &::after{
+        content: "";
+        width: 60px;
+        height: 1px;
+        background-color: black;
+    }
+   
+}
+.pages {
+    margin: 400px auto 0;
+    
+}
+
+.icons_box4 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+    &::before
+    {
+        content: "";
+        width: 240px;
+        height: 1px;
+        background-color: black;
+    }
+}
+
+
+
+@import "./moduls/promo";
+@import "./moduls/header";
+@import "./moduls/about";
+@import "./moduls/promo2";
+@import "./moduls/footer";
+
+
+@import "./moduls2/header";
+@import "./moduls2/promo";
+@import "./moduls2/about2";
+@import "./moduls2/pages";
+@import "./moduls2/catalog";
+@import "./moduls2/footer";
+@import "./moduls3/header";
+@import "./moduls3/promo";
+@import "./moduls3/about2";
+@import "./moduls3/footer";
+
+

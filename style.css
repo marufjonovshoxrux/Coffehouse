@@ -1,0 +1,465 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.icon_box {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.icon_box::before, .icon_box::after {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: white;
+}
+
+.icon_box2 {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.icon_box2::before, .icon_box2::after {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: black;
+}
+
+.icon_box3 {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 20px;
+}
+.icon_box3::before, .icon_box3::after {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: black;
+}
+
+.pages {
+  margin: 400px auto 0;
+}
+
+.icons_box4 {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 20px;
+}
+.icons_box4::before {
+  content: "";
+  width: 240px;
+  height: 1px;
+  background-color: black;
+}
+
+.promo {
+  background: url(./img/promo1.png) no-repeat center/cover;
+  min-height: 640px;
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+}
+.promo h1 {
+  font-family: Merienda;
+  font-size: 40px;
+  line-height: 57.76px;
+  text-align: center;
+  margin: 111px 0 20px;
+}
+.promo p {
+  font-family: Merienda;
+  font-size: 24px;
+  line-height: 30.66px;
+  text-align: center;
+  margin: 35px auto 18px;
+}
+.promo .container {
+  max-width: 670px;
+}
+
+.btn {
+  width: 120px;
+  height: 30px;
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 20.22px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  color: white;
+  border-radius: 4px;
+  padding: 0 42px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  transition: 0.6s;
+  scale: 1.05;
+}
+.btn:active {
+  box-shadow: none;
+  scale: 0.95;
+}
+
+.header {
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.header a {
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.about .container {
+  max-width: 589px;
+}
+.about h2 {
+  font-family: Merienda;
+  font-size: 24px;
+  line-height: 34.66px;
+  text-align: center;
+  margin: 80px 0 20px;
+}
+.about p {
+  margin: 40px 0 101px;
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 20.22px;
+  text-align: center;
+}
+
+.promo2 {
+  background: url(./img/promo2.png) no-repeat center/cover;
+  min-height: 495px;
+}
+.promo2 h2 {
+  padding: 80px 0 40px;
+  font-family: Merienda;
+  font-size: 24px;
+  line-height: 34.66px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+}
+.grid .elem {
+  width: 240px;
+  height: 240px;
+  background: rgba(255, 255, 255, 0.65);
+  border-radius: 5px;
+}
+.grid .edem {
+  padding: 32px 30px;
+}
+.grid p {
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 20.22px;
+  text-align: center;
+  padding: 5px 0 0;
+}
+.grid h3 {
+  padding: 5px 0 0;
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 20.22px;
+  text-align: end;
+}
+
+.footer {
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+  justify-content: center;
+}
+.footer a {
+  margin: 30px 0 30px;
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+
+.header3 {
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.header3 a {
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.promo3 {
+  background: url(./img/promo3.png) no-repeat center/cover;
+  min-height: 260px;
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+}
+.promo3 h2 {
+  font-family: Merienda;
+  font-size: 40px;
+  line-height: 57.76px;
+  text-align: center;
+  margin: 130px 0 84px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin: 0 auto;
+  margin: 70px 0;
+}
+.flex h2 {
+  font-family: Merienda;
+  font-size: 24px;
+  line-height: 34.66px;
+  text-align: center;
+  padding: 20px 0 10px;
+}
+.flex p {
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 22.22px;
+  text-align: center;
+}
+.flex .elem2 {
+  width: 300px;
+  height: 50px;
+}
+
+.menu2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0 0;
+  gap: 5px;
+}
+.menu2 a {
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 20.22px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 0 20px 0;
+}
+.menu2 input {
+  width: 180px;
+  height: 30px;
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: center;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  margin-right: 60px;
+}
+.menu2 .btr {
+  width: 70px;
+  height: 30px;
+  border: 0;
+  border-radius: 3px;
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.menu2 .btr:hover {
+  background-color: black;
+  color: white;
+  transition: 0.6s;
+  scale: 1.05;
+}
+.menu2 .btr:active {
+  box-shadow: none;
+  scale: 0.95;
+}
+
+.grid {
+  margin: 60px 0 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid img {
+  padding: 40px 40px 0;
+}
+.grid .elem10 {
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.grid h3 {
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 20.22px;
+  text-align: center;
+}
+.grid p {
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 20.22px;
+  text-align: center;
+}
+.grid h4 {
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 20.22px;
+  text-align: center;
+  padding: 0 0 30px;
+}
+
+.footer {
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+  justify-content: center;
+}
+.footer a {
+  margin: 30px 0 30px;
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+
+.header4 {
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.header4 a {
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.promo4 {
+  background: url(./img/promo3.png) no-repeat center/cover;
+  min-height: 260px;
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+}
+.promo4 h2 {
+  font-family: Merienda;
+  font-size: 40px;
+  line-height: 57.76px;
+  text-align: center;
+  margin: 130px 0 84px;
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin: 0 auto;
+  margin: 70px 0;
+}
+.flex2 h2 {
+  font-family: Merienda;
+  font-size: 24px;
+  line-height: 34.66px;
+  text-align: center;
+  padding: 20px 0 10px;
+}
+.flex2 p {
+  font-family: Merienda;
+  font-size: 14px;
+  line-height: 22.22px;
+  text-align: left;
+  padding: 10px 0 10px;
+}
+.flex2 .elem3 {
+  width: 300px;
+  height: 50px;
+}
+.flex2 img {
+  min-height: 355px;
+  max-width: 350px;
+}
+
+.footer3 {
+  margin: 90px 0 0;
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+  justify-content: center;
+}
+.footer3 a {
+  margin: 180px 0 30px;
+  font-family: Merienda;
+  font-size: 12px;
+  line-height: 17.33px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}

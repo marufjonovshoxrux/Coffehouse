@@ -1,0 +1,64 @@
+.menu2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0 0;
+    gap: 5px;
+    a {
+        font-family: Merienda;
+        font-size: 14px;
+        line-height: 20.22px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        padding: 0 20px 0;
+
+    }
+    input {
+        width: 180px;
+        height: 30px;
+        font-family: Merienda;
+        font-size: 12px;
+        line-height: 17.33px;
+        text-align: center;
+        border: 0;
+        border-radius: 3px;
+        box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+        display: flex;
+        margin-right: 60px;
+
+    }
+
+    .btr {
+        width: 70px;
+        height: 30px;
+        border: 0;
+        border-radius: 3px;
+        font-family: Merienda;
+        font-size: 12px;
+        line-height: 17.33px;
+        text-align: center;
+        background-color: white;
+        box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+
+        &:hover {
+            background-color: black;
+            color: white;
+            transition: 0.6s;
+            scale: 1.05;
+        }
+        &:active {
+            box-shadow: none;
+            scale: 0.95;
+            
+    
+        }
+
+        
+    }
+
+
+}
+
+
